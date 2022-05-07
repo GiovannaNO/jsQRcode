@@ -1,2 +1,19 @@
-/**/
-
+#dados1{
+    text-align: center;
+}
+#dados2{
+    text-align: center;
+}
+#imagem{
+    text-align: center;
+}
+table, tr, td{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+}
+#butao{
+    text-align: center;
+    padding-top: 5%;
+}
