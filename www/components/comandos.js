@@ -14,6 +14,14 @@ window.onload = function(){
                     document.querySelector("#dados1").innerHTML = "<hr><h2>Informações do produto escaneado:</h2><p><strong>Nome do produto:</strong> Motorola One XT1941 Branco 64GB</p>";
                     document.getElementById("img").src = 'img/Imagem3.jpg';
                     document.querySelector("#dados2").innerHTML = "<p><strong>Valor:</strong> <em>⨂</em></p><p><strong>Sistema operacional:</strong> Android 8.1 Oreo</p><p><strong>Processador:</strong> Qualcomm Snapdragon 625 (MSM8953) Octa-Core de 2.0 GHz</p><p><strong>Memória interna:</strong> 64 GB Total (parte usada para o sistema operacional e aplicativos pré-instalados)</p><h5>Características Gerais:</h5><ul><li>- Tela Max Vision e design ao máximo</li><li>- Câmera dupla e armazenamento ilimitado</li><li>- Android One: primeiro do Brasil, atualizado e seguro</li><li>- Carregamento ultrarrápido TurboPower</li><li>- Últimas inovações do Google incorporadas</li><li>- Leitor Biométrico (Impressão Digital)</li></ul><table><tr><td>Memória RAM</td><td>4GB</td></tr><tr><td>Tecnologia GSM</td><td>3G e 4G</td></tr><tr><td>Cor</td><td>Branco</td></tr></table><br>";
+                }else if(result.text == '85369877444'){
+                    document.querySelector("#dados1").innerHTML = "<hr><h2>Informações do produto escaneado:</h2><p><strong>Nome do produto:</strong> Asus Zenfone Max Pro M1</p>";
+                    document.getElementById("img").src = 'img/Imagem4.jpg';
+                    document.querySelector("#dados2").innerHTML = "<p><strong>Valor:</strong> <em>R$ 1.199,00</em></p><p><strong>Sistema operacional:</strong> Android 8.1 Oreo</p><p><strong>Processador:</strong> Qualcomm Snapdragon SDM636 1,8 GHz, 2 Mb Cache</p><p><strong>Tela:</strong> 6,0'' Led Backlight Ips panel (1080x2160)</p><table><tr><td>Memória interna</td><td>64GB</td></tr><tr><td>Memória expansiva</td><td>2TB Sd</td></tr><tr><td>Memória RAM</td><td>4GB</td></tr><tr><td>Tipo de Chip</td><td>Nano</td></tr><tr><td>Dual Chip</td><td>Sim</td></tr><tr><td>Conectividade</td><td>3G, 4G, Wi-Fi</td></tr><tr><td>Câmera Frontal</td><td>8MP</td></tr><tr><td>Câmera Traseira</td><td>16+5MP</td></tr></table><br>";
+                }else{
+                    document.querySelector("#dados1").innerHTML = "<hr><h2>Produto escaneado não encontrado...</h2>";
+                    document.getElementById("img").src = 'img/erro.png';
+                    document.querySelector("#dados2").innerHTML = "<p>Tente escanear novamente ou escanear um código válido.</p>";
                 }
             },
 
