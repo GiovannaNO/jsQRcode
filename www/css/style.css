@@ -17,3 +17,6 @@ table, tr, td{
     text-align: center;
     padding-top: 5%;
 }
+ul, li{
+    list-style: none;
+}
